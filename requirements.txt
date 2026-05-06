@@ -1,0 +1,20 @@
+# Core LangChain / LangGraph
+langchain>=0.3.25
+langchain-core>=0.3.60
+langchain-community>=0.3.24
+langgraph>=0.4.5
+
+# LLM provider adapters — install only what you need
+langchain-groq>=0.3.2          # Option: Groq (free tier)
+langchain-openai>=0.3.16       # Option: OpenAI or xAI (OpenAI-compatible)
+langchain-anthropic>=0.3.0     # Option: Anthropic Claude
+langchain-ollama>=0.2.0        # Option: Ollama (local, free)
+
+# Embeddings — local, no API key required
+sentence-transformers>=3.4.1
+
+# Utilities
+openai>=1.82.0
+pydantic>=2.11.4
+python-dotenv>=1.1.0
+numpy>=2.0.0
